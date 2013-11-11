@@ -1,3 +1,9 @@
+chronochat (0.2-1ppa2~precise1) precise; urgency=low
+
+  * Adding forgotten dependencies on qt4 and protobuf
+
+ -- Alexander Afanasyev <alexander.afanasyev@ucla.edu>  Sun, 10 Nov 2013 21:53:51 -0800
+
 chronochat (0.2-1ppa1~precise1) precise; urgency=low
 
   Initial commit of Ubuntu's packaging
