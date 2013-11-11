@@ -1,0 +1,22 @@
+Source: chronochat
+Priority: extra
+Maintainer: Alexander Afanasyev <alexander.afanasyev@ucla.edu>
+Build-Depends: debhelper (>= 8.0.0), 
+ python (>= 2.7.0),
+ pkg-config (>= 0.26),
+ ndn.cxx-dev (>= 0.2~rc1),
+ chronosync-dev (>= 0.2),
+ ndnx-dev (>= 0.2),
+ libsqlite3-dev,
+ libcrypto++-dev (>= 5.6.1),
+ libboost-system1.48-dev (>= 1.48.0), libboost-iostreams1.48-dev (>= 1.48.0),
+ libboost-date-time1.48-dev (>= 1.48.0), libboost-regex1.48-dev (>= 1.48.0), 
+ libboost-program-options1.48-dev (>= 1.48.0)
+Standards-Version: 3.9.2
+Section: libs
+
+Package: chronochat
+Section: net
+Architecture: i386 amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A simple but interesting demo to visualize how ChronoSync library works
