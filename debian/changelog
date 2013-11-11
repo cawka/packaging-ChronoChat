@@ -1,3 +1,9 @@
+chronochat (0.2-1ppa3~precise1) precise; urgency=low
+
+  * Three more missing dependencies on boost libraries
+
+ -- Alexander Afanasyev <alexander.afanasyev@ucla.edu>  Sun, 10 Nov 2013 22:15:43 -0800
+
 chronochat (0.2-1ppa2~precise1) precise; urgency=low
 
   * Adding forgotten dependencies on qt4 and protobuf
