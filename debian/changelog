@@ -1,3 +1,17 @@
+chronochat (0.2.1-1ppa1~precise1) precise; urgency=low
+
+  [ Yingdi Yu ]
+  * Adding doc
+  * change update-prefix
+  * update chronosync `
+  * Fixing the Add/Delete Contact bug, now when a contact is added and removed, the panelPolicyManager will add/remove the contact into/from trust anchors
+
+  [ Alexander Afanasyev ]
+  * Update waf and waf-tools
+  * Updating ChronoSync revision
+
+ -- Alexander Afanasyev <alexander.afanasyev@ucla.edu>  Thu, 14 Nov 2013 14:01:32 -0800
+
 chronochat (0.2-1ppa3~precise1) precise; urgency=low
 
   * Three more missing dependencies on boost libraries
