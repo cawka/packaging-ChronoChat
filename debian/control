@@ -12,11 +12,11 @@ Build-Depends: debhelper (>= 8.0.0),
  libqt4-dev (>= 4.8.1),
  libsqlite3-dev,
  libcrypto++-dev (>= 5.6.1),
- libboost-system1.48-dev (>= 1.48.0), libboost-iostreams1.48-dev (>= 1.48.0),
- libboost-date-time1.48-dev (>= 1.48.0), libboost-regex1.48-dev (>= 1.48.0), 
- libboost-program-options1.48-dev (>= 1.48.0),
- libboost-thread1.48-dev (>= 1.48.0), libboost-random1.48-dev (>= 1.48.0),
- libboost-filesystem1.48-dev (>= 1.48.0)
+ libboost-system-dev (>= 1.48.0), libboost-iostreams-dev (>= 1.48.0),
+ libboost-date-time-dev (>= 1.48.0), libboost-regex-dev (>= 1.48.0), 
+ libboost-program-options-dev (>= 1.48.0),
+ libboost-thread-dev (>= 1.48.0), libboost-random-dev (>= 1.48.0),
+ libboost-filesystem-dev (>= 1.48.0)
 Standards-Version: 3.9.2
 Section: libs
 
